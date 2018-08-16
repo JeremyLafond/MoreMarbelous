@@ -70,7 +70,7 @@ function preload() {
 function setup() {
     //width = 800, height = 600
     //quick and dirty way to deal with landscaping/portrait issues on a phone
-    let canvas = createCanvas(displayWidth, displayHeight);
+    let canvas = createCanvas(800, 600);
     canvas.parent("container");
 
     let label = createP();
