@@ -85,10 +85,11 @@ function mySetup() {
 }
 
 function myDraw() {
-  //setting background color
-  background(64,0,64);
   var hash= HASH.update(worldSeed).digest().toNumber(7);
   noiseSeed(hash);
+  //setting background color
+  background(64,0,64);
+
 }
 
 function myHandleClick(i, j) {
